@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/paint.css">
+
+    <title>You are Out of this World</title>
+</head>
+<body>
+     <nav class="navbar navbar-primary bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Global</a>
+          
+        </div>
+      </nav>
+      
+      <div class="container">
+          <div class="row space">
+              
+            <form id="ageForm" action="javascript:getAge()" method="get" name="searchform">
+                <div class="col-8">
+                    <div class="row mb-4">
+                      <label for="agePlease" class="col-sm-2 col-form-label">What is your age?</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="agePlease" name="searchfield">
+                      </div>
+                    </div>
+                </div>
+                <div class="col-2">  
+                    <button type="submit" form="ageForm" class=" btn btn-success" id="submitAge">Submit</button>
+                </div>
+            </form>
+              
+              
+              
+
+          </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card test" style="width: 18rem;">
+                <img src="src/Img/mercury.jpg" class="card-img-top" alt="Planet Mercury">
+                <div class="card-body">
+
+                  <h5 class="card-title">MERCURY</h5>
+                      <p class="card-text " id="mercury">Learning is like Mercury, one of the most powerful and 
+                          excellent things in the world in skillful hands; in unskillful, the most 
+                          mischievous.</p>
+                  <a href="https://www.nasa.gov/planetmercury" target="_blank" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img src="src/Img/venus.jpg" class="card-img-top" alt="Planet Venus">
+                <div class="card-body">
+                  <h5 class="card-title">VENUS</h5>
+                  <p class="card-text " id="venus">Venus favors the bold.</p>
+                  <a href="https://www.nasa.gov/venus" target="_blank" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img src="src/Img/earth.jpg" class="card-img-top" alt="Planet Earth">
+                <div class="card-body">
+                  <h5 class="card-title">EARTH</h5>
+                  <p class="card-text " id="earth">The Earth is what we all have in common.</p>
+                  <a href="https://www.nasa.gov/earth" target="_blank" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img src="src/Img/mars.jpg" class="card-img-top" alt="Planet Mars">
+                <div class="card-body">
+                  <h5 class="card-title">MARS</h5>
+                  <p class="card-text" id="mars">I would like to die on Mars. Just not on impact. "Elon Musk" </p>
+                  <a href="https://www.nasa.gov/mars"  target="_blank" class="btn btn-primary">More Info</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="src/Img/jupiter.jpg"  class="card-img-top" alt="Planet Jupiter">
+                    <div class="card-body">
+                      <h5 class="card-title">JUPITER</h5>
+                      <p class="card-text" id="jupiter">Weather forecast for Jupiter's South Equatorial Belt: cloudy with a chance of ammonia.</p>
+                      <a href="https://www.nasa.gov/jupiter" target="_blank" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="src/Img/saturn.jpg" class="card-img-top" alt="Planet Saturn">
+                    <div class="card-body">
+                      <h5 class="card-title">SATURN</h5>
+                      <p class="card-text" id="saturn">Seat thyself sultanically among the moons of Saturn.</p>
+                      <a href="https://www.nasa.gov/saturn" target="_blank" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="src/Img/uranus.jpeg" class="card-img-top" alt="Planet Uranus">
+                    <div class="card-body">
+                      <h5 class="card-title">URANUS</h5>
+                      <p class="card-text" id="uranus">Uranus stares at Neptune. </p>
+                      <a href="https://www.nasa.gov/uranus" target="_blank" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="src/Img/neptune.jpg" class="card-img-top" alt="Planet Neptune">
+                    <div class="card-body">
+                      <h5 class="card-title">NEPTUNE</h5>
+                      <p class="card-text" id="neptune">Neptune stares at Moon.</p>
+                      <a href="https://www.nasa.gov/subject/3157/neptune/" target="_blank" class="btn btn-primary">More Info</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+
+
+      
+      
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="src/electric.js"></script> 
+ 
+</body>
+</html>
